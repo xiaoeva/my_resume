@@ -13,7 +13,7 @@ h1,
 h2,
 h3 {
   font-family: "Helvetica", sans-serif;
-  color: #9e4141; /* 314c62,a04b4b*/
+  color: #103c58; /* 394d5a, 9e4141,314c62,a04b4b*/
   font-style: bold;
 }
 
@@ -25,7 +25,7 @@ sup {
 
 /*Avoid color change with visited links */
 a, a:hover, a:visited, a:active, a:link {
-  color: #517e9d;
+  color: #394d5a;
   text-decoration: none;
  }
  
@@ -38,6 +38,7 @@ a, a:hover, a:visited, a:active, a:link {
   /* Override default right margin for sidebar*/
   --pagedjs-margin-right: 0.2in;
   --pagedjs-margin-left: 0.2in;
+  --pagedjs-margin-top: 0.6in;
 }
 
 /* Customize some of the sizing variables */
@@ -83,7 +84,7 @@ a, a:hover, a:visited, a:active, a:link {
   content: "• ";
 }
 
-/* Make sure elements in asside are centered and have a nice small text */
+/* Make sure elements in aside are centered and have a nice small text */
 .aside {
   width: calc(var(--sidebar-width) + 9px);
   line-height: 1.2;
@@ -116,6 +117,14 @@ a, a:hover, a:visited, a:active, a:link {
   content: none;
 }
 
+.section.no-timeline body::after {
+  content: none;
+}
+
+.section.no-timeline h3::after {
+  content: none;
+}
+
 /* Without adding padding the content is all up on the title */
 .section.no-timeline h2 {
   padding-bottom: 1rem;
@@ -129,3 +138,5 @@ a, a:hover, a:visited, a:active, a:link {
   margin: 0.5rem;
   box-shadow: 1px 1px 4px black;
 }
+
+

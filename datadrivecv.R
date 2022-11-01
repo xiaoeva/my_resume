@@ -6,7 +6,7 @@ devtools::install_github('nstrayer/datadrivencv#60')
 datadrivencv::use_datadriven_cv(
   full_name = "Eva Xiao",
   data_location = "https://docs.google.com/spreadsheets/d/1OkkeRXII-WniPzShCTPufUcd4kAOAENjhfmy1B89V7c/edit#gid=340636497",
-  pdf_location = "https://github.com/uxla/cv/raw/master/xiao_cv.pdf",
-  html_location = "evaxiao.com/cv",
-  source_location = "https://github.com/uxla/cv"
+  pdf_location = "https://github.com/xiaoeva/my_resume/xiao_cv.pdf",
+  html_location = "https://github.com/xiaoeva/my_resume/xiao_cv.html",
+  source_location = "https://github.com/xiaoeva/my_resume"
 )

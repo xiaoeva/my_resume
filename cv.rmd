@@ -77,13 +77,6 @@ CV %>% print_lang_skill_bars()
 ```
 
 
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made with the R package [**datadrivencv**](https://github.com/nstrayer/datadrivencv). 
-
-Last updated on `r Sys.Date()`.
-
 
 Main
 ================================================================================
@@ -97,6 +90,13 @@ CV %<>% print_text_block("intro")
 ```
 
 
+Work Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('work_experience')
+```
+
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -105,14 +105,6 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-
-
-Work Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('work_experience')
-```
 
 Clips {data-icon=newspaper}
 --------------------------------------------------------------------------------
