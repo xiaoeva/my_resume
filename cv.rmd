@@ -62,14 +62,14 @@ Awards {#awards}
 [Society of Publishers in Asia (SOPA)](https://sopawards.com/wp-content/uploads/2020/08/SOPA-2020-Awards-Winner-List.pdf), _Honorable Mention for Excellence in Human Rights Reporting Global in 2020_
 
 
-Computer Languages {#computer_languages}
+Technical Skills {#computer_languages}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %>% print_skill_bars()
 ```
 
- Human Languages  {#human_languages}
+Languages  {#human_languages}
 --------------------------------------------------------------------------------
 
 ```{r}
