@@ -55,6 +55,8 @@ CV %>% print_contact_info()
 Awards {#awards}
 --------------------------------------------------------------------------------
 
+[Sigma Awards](https://www.sigmaawards.org/meet-the-winners-of-the-sigmas-2024-for-data-journalism/), _2024 winner_
+
 [The Pulitzer Prize](https://www.pulitzer.org/finalists/staff-wall-street-journal-1), _Finalist for International Reporting in 2021_
 
 [25th Human Rights Press Awards](https://web.archive.org/web/20211104002508/https://humanrightspressawards.org/winners-2021) , _Merit for Explanatory Feature Writing in 2021_
